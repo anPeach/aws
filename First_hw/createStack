@@ -1,0 +1,2 @@
+#!/bin/bash
+aws cloudformation create-stack --stack-name firstStack --template-body "file://D:\workFolder\aws\First_hw\first_hw.yml" --parameters ParameterKey=KeyName,ParameterValue=very-friendly-name
